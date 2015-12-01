@@ -1,0 +1,1 @@
+arm-none-linux-gnueabi-g++ -Wl,-O1 -Wl,-rpath,/opt/qt-pandaboard-lib/lib -o Lab07 camera.o gene.o image_process.o lee.o main.o W.o moc_gene.o moc_W.o    -L/opt/opencvlib_arm/lib -lopencv_core -lopencv_objdetect -lopencv_highgui -lopencv_imgproc  -L/opt/qt-pandaboard-lib//lib -lQtGui -L/opt/qt-pandaboard-lib//lib -lQtNetwork -lQtCore -lpthread 
